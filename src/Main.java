@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите арифметическое выражение:");
+        System.out.println("Введите арифметическое выражение:");
         String input = scanner.nextLine();
 
         try {
